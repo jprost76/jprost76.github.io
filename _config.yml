@@ -11,7 +11,6 @@ title                    : "Jean Prost"
 title_separator          : "-"
 name                     : &name "Jean Prost"
 description              : &description "Welcome to my personal webpage"
-#url                      : https://127.0.0.1:4000 # TODO : change url
 url                      : https://jprost76.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -103,7 +102,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/jean-prost-a95075173
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
