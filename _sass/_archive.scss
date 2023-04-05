@@ -66,6 +66,22 @@
   }
 }
 
+.archive__item-details {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: $type-size-7;
+  & + p {
+    text-indent: 0;
+  }
+}
+
+.archive__item-citation {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: $type-size-7;
+  font-style: italic;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

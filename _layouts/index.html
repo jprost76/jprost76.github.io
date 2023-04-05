@@ -1,0 +1,38 @@
+---
+layout: archive
+author_profile: true
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+
+  <body>
+
+    <h1>About me</h1>
+
+    {{ content }}
+
+<h1> Publications and preprints </h1>
+  <ul>{% for post in site.publications reversed%}
+    {% include archive-single-index.html %}
+  {% endfor %}</ul>
+
+<h1> Talks</h1>  
+  <ul>{% for post in site.talks reversed%}
+    {% include archive-single-talk-index.html %}
+  {% endfor %}</ul>
+
+
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
