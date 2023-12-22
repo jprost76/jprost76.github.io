@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Jean Prost"
   avatar           : "moi4.jpg"
-  bio              : "Doctor in applied mathematics, at Université Paris Cité, MAP5"
-  location         : "Bordeaux (France)"
+  bio              : "Researcher in applied mathematics at Université Paris Cité, MAP5"
+  location         : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=l8V9zvAAAAAJ&hl=en"
