@@ -2,5 +2,6 @@
 layout: index
 ---
 
-I am a PhD student at the Bordeaux university, working under the supervision of Nicolas Papadakis and Andrés Almansa. My main research interests include deep generative models and image inverse problems.
-In particular, I am working on developping optimization algorithms designed to incorporate deep generative models as a prior in variational problems.
+I am a researcher in applied mathematics at the MAP5 laboratory at Paris-Cité university. 
+My main research interest is combining mathematical methodology and novel deep learning approaches to solve challenging problems.
+I have defended my PhD thesis "Image restoration with deep generative models" at the Bordeaux Institute of Mathematics (IMB), under the supervision of Nicolas Papadakis and Andrés Almansa.
