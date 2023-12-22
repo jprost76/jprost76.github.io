@@ -1,15 +1,31 @@
 ---
-title: "Diverse super-resolution with pretrained deep hiererarchical VAEs"
+title: "Efficient posterior sampling for diverse super-resolution
+with hierarchical VAE Prior"
 collection: Preprint
 permalink: /publication/2022-05-20-diverse_SR
-excerpt: 'Image super-resolution is a one-to-many problem, but most deep-learning based methods only provide one single solution to this problem. In this work, we tackle the problem of diverse super-resolution by reusing VD-VAE, a state-of-the art variational autoencoder (VAE). We find that the hierarchical latent representation learned by VD-VAE naturally separates the image low-frequency information, encoded in the latent groups at the top of the hierarchy, from the image high-frequency details, determined by the latent groups at the bottom of the latent hierarchy. Starting from this observation, we design a super-resolution model exploiting the specific structure of VD-VAE latent space. Specifically, we train an encoder to encode low-resolution images in the subset of VD-VAE latent space encoding the low-frequency information, and we combine this encoder with VD-VAE generative model to sample diverse super-resolved version of a low-resolution input. We demonstrate the ability of our method to generate diverse solutions to the super-resolution problem on face super-resolution with upsampling factors x4, x8, and x16.'
-date: 2022-05-20
-venue: 'Preprint'
+excerpt: 'We investigate the problem of producing diverse solutions to an image super-resolution problem.
+From a probabilistic perspective, this can be done by sampling from the posterior distribution of an
+inverse problem, which requires the definition of a prior distribution on the high-resolution images.
+In this work, we propose to use a pretrained hierarchical variational autoencoder (HVAE) as a prior.
+We train a lightweight stochastic encoder to encode low-resolution images in the latent space of a
+pretrained HVAE. At inference, we combine the low-resolution encoder and the pretrained generative
+model to super-resolve an image. We demonstrate on the task of face super-resolution that our method
+provides an advantageous trade-off between the computational efficiency of conditional normalizing
+flows techniques and the sample quality of diffusion based methods.'
+date: 2024-02-20
+venue: '19th International Joint Conference on Computer Vision Theory and Applications (VISAPP2024)'
 paperurl: 'https://arxiv.org/pdf/2205.10347'
 citation: 'Jean Prost, Antoine Houdard, Nicolas Papadakis, Andrés Almansa'
 ---
 
-
-Image super-resolution is a one-to-many problem, but most deep-learning based methods only provide one single solution to this problem. In this work, we tackle the problem of diverse super-resolution by reusing VD-VAE, a state-of-the art variational autoencoder (VAE). We find that the hierarchical latent representation learned by VD-VAE naturally separates the image low-frequency information, encoded in the latent groups at the top of the hierarchy, from the image high-frequency details, determined by the latent groups at the bottom of the latent hierarchy. Starting from this observation, we design a super-resolution model exploiting the specific structure of VD-VAE latent space. Specifically, we train an encoder to encode low-resolution images in the subset of VD-VAE latent space encoding the low-frequency information, and we combine this encoder with VD-VAE generative model to sample diverse super-resolved version of a low-resolution input. We demonstrate the ability of our method to generate diverse solutions to the super-resolution problem on face super-resolution with upsampling factors x4, x8, and x16.
+We investigate the problem of producing diverse solutions to an image super-resolution problem.
+From a probabilistic perspective, this can be done by sampling from the posterior distribution of an
+inverse problem, which requires the definition of a prior distribution on the high-resolution images.
+In this work, we propose to use a pretrained hierarchical variational autoencoder (HVAE) as a prior.
+We train a lightweight stochastic encoder to encode low-resolution images in the latent space of a
+pretrained HVAE. At inference, we combine the low-resolution encoder and the pretrained generative
+model to super-resolve an image. We demonstrate on the task of face super-resolution that our method
+provides an advantageous trade-off between the computational efficiency of conditional normalizing
+flows techniques and the sample quality of diffusion based methods.
 
 [Arxiv link](https://arxiv.org/pdf/2205.10347)
