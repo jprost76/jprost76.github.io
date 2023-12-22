@@ -14,7 +14,9 @@ provides an advantageous trade-off between the computational efficiency of condi
 flows techniques and the sample quality of diffusion based methods.'
 date: 2024-02-20
 venue: '19th International Joint Conference on Computer Vision Theory and Applications (VISAPP2024)'
-paperurl: 'https://arxiv.org/pdf/2205.10347'
+paperurl: ''
+preprint: 'https://arxiv.org/pdf/2205.10347'
+code: ''
 citation: 'Jean Prost, Antoine Houdard, Nicolas Papadakis, Andrés Almansa'
 ---
 

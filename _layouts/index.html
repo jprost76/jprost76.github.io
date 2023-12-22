@@ -24,12 +24,29 @@ author_profile: true
 
 <h1> Publications and preprints </h1>
   <ul>{% for post in site.publications reversed%}
-    {% include archive-single-index.html %}
+    <li>
+      <b> {{ post.title }}</b>
+      <br> {{ post.citation }}
+      <br> {{ post.venue }}
+      <a href={{ post.preprint }}> [arxiv] </a> 
+      {% if post.paperurl != '' %}
+        <a href={{ post.paperurl }}> [paper] </a>
+      {% endif %}
+      {% if post.code != '' %}
+        <a href={{ post.code }}> [code] </a>
+      {% endif %}
+    </li>
   {% endfor %}</ul>
 
 <h1> Talks</h1>  
-  <ul>{% for post in site.talks reversed%}
-    {% include archive-single-talk-index.html %}
+  <ul>{% for post in site.talks reversed %}
+    {% if post.type != "Poster" %}
+      <li>
+        <b> {{ post.venue }}</b>
+        <br> {{ post.date | date: "%d/%m/%Y" }}, {{ post.location }}
+        <br> {{ post.title }}
+      </li>
+    {% endif %}
   {% endfor %}</ul>
 
 
