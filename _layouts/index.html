@@ -14,6 +14,14 @@ author_profile: true
 
     {{ content }}
 
+<h1>News</h1>
+  <ul>{% for post in site.news reversed %}
+    <li>
+       <b>[{{ post.date | date: "%d/%m/%Y" }}]</b> {{ post.desc }} 
+    </li>{% endfor %}
+  </ul>
+
+
 <h1> Publications and preprints </h1>
   <ul>{% for post in site.publications reversed%}
     {% include archive-single-index.html %}
