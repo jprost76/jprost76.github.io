@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Jean Prost"
   avatar           : "moi4.jpg"
-  bio              : "Researcher in applied mathematics at Université Paris Cité, MAP5"
+  bio              : "Researcher in applied mathematics at CRIStAL"
   location         : 
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=l8V9zvAAAAAJ&hl=en"
-  email            : "jean.a.prost@gmail.com"
+  email            : "jean.prost@centralelille.fr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/jprost76"
+  github           : "jprost76"
   google_plus      :
   keybase          :
   instagram        :
