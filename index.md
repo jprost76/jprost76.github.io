@@ -2,6 +2,7 @@
 layout: index
 ---
 
-I am researcher in applied mathematics. My research interests include inverse problems, deep generative models and computer vision.
-I am currently a postdoctoral researcher at the research center on computer science, signal processing and automatics of Lille (CRIStAL). 
-Before that, I have defended my PhD thesis on image restoration with deep generative models, in Bordeaux university, under the supervision of Nicolas Papadakis and Andrés Almansa.
+I am a postdoctoral researcher in applied mathematics at the research center on computer science, signal processing and automatics of Lille (CRIStAL).
+My research interests include deep learning, generative models, computer vision and inverse problems.
+I have defended my PhD thesis on image restoration with deep generative models, under the supervision of Nicolas Papadakis and Andrés Almansa.
+I am currently working on combining deep learning and Bayesian methods for solving problems in cosmology.
