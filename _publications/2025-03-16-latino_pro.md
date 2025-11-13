@@ -7,7 +7,7 @@ date: 2025-03-16
 venue: '(ICCV2025)'
 paperurl: 'https://openaccess.thecvf.com/content/ICCV2025/papers/Spagnoletti_LATINO-PRO_LAtent_consisTency_INverse_sOlver_with_PRompt_Optimization_ICCV_2025_paper.pdf'
 preprint: 'https://arxiv.org/abs/2503.12615?'
-code: ''
+code: 'https://github.com/LATINO-PRO/LATINO-PRO'
 citation: 'Alessio Spagnoletti, Jean Prost, Andrés Almansa, Nicolas Papadakis, Marcelo Pereyra'
 ---
 
