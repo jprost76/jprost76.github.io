@@ -13,4 +13,4 @@ To this end, I develop hybrid methods which incorporate deep neural networks wit
 
 # Internship offer
 
-We are proposing a master 2 internship on estimation of the covariance matrix for imaging inverse problem. This is a 5 months internship which will take place at IRIT and begin around february 2026. Please refer to the [full description]({{ site.url }}/files/stage_master2_irit.pdf) for more information.
+We are proposing a master 2 internship on estimation of the covariance matrix for imaging inverse problem. This is a 6 months internship which will take place at IRIT and begin around february 2026. Please refer to the [full description]({{ site.url }}/files/stage_master2_irit.pdf) for more information.
