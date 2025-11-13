@@ -14,23 +14,6 @@ author_profile: true
 
     {{ content }}
 
-  <h1>Internship offer</h1>
-  <ul>{% for post in site.joboffers reversed %}
-    <li>
-       <b>[{{ post.date | date: "%d/%m/%Y" }}]</b> {{ post.desc }} 
-       {% if post.filename != '' %}
-        <a href={{ site.url }}/files/{{ post.filename }}> [internship offer] </a>
-        {% endif %}
-    </li>{% endfor %}
-  </ul>
-
-<h1>News</h1>
-  <ul>{% for post in site.news reversed %}
-    <li>
-       <b>[{{ post.date | date: "%d/%m/%Y" }}]</b> {{ post.desc }} 
-    </li>{% endfor %}
-  </ul>
-
 
 <h1> Publications and preprints </h1>
   <ul>{% for post in site.publications reversed%}
@@ -46,17 +29,6 @@ author_profile: true
         <a href={{ post.code }}> [code] </a>
       {% endif %}
     </li>
-  {% endfor %}</ul>
-
-<h1> Talks</h1>  
-  <ul>{% for post in site.talks reversed %}
-    {% if post.type != "Poster" %}
-      <li>
-        <b> {{ post.venue }}</b>
-        <br> {{ post.date | date: "%d/%m/%Y" }}, {{ post.location }}
-        <br> {{ post.title }}
-      </li>
-    {% endif %}
   {% endfor %}</ul>
 
 

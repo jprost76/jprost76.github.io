@@ -9,5 +9,9 @@ In 2020, I graduated from INSA Rouen with an engeenering degree in applied mathe
 
 I have worked as a post-doctoral researcher at the MAP5 lab of université Paris-cité, and at the research center on computer science, signal processing and automatics of Lille (CRIStAL).
 
-My main research goal is to conceive efficient and reliable algorithms for solving challenging inverse problems in applications such as image processing or cosmology. 
-To this end, I develop hybrid algorithms which incorporate deep neural networks within optimization or sampling algorithms in order to benefit both from the well-established mathematical guarantees of model-based approaches and the ability of deep neural networks to model complex data distributions. 
+My main research goal is to conceive efficient and reliable algorithms for solving challenging inverse problems, in applications such as image processing or cosmology. 
+To this end, I develop hybrid methods which incorporate deep neural networks within optimization or sampling algorithms in order to benefit both from the well-established mathematical guarantees of model-based approaches and the ability of deep neural networks to model complex data distributions. 
+
+# Internship offer
+
+We are proposing a master 2 internship on estimation of the covariance matrix for imaging inverse problem. This is a 5 months internship which will take place at IRIT and begin around february 2026. Please refer to the [full description]({{ site.url }}/files/stage_master2_irit.pdf) for more information.
